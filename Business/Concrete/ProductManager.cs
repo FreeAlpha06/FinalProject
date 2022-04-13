@@ -54,7 +54,7 @@ namespace Business.Concrete
         {
             //İş Kodları
             //Yetkisi var mı?
-            if (DateTime.Now.Hour == 11)
+            if (DateTime.Now.Hour == 23)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
